@@ -3,6 +3,7 @@
 Simulacija poteka verižne replikacije.
 
 Zagon algoritma:
+
 go run .
 
 Dodatne zastavice:
@@ -14,5 +15,7 @@ Dodatne zastavice:
 V kolikor dobite sporočilo "Požarni zid blokiral nekatere funkcije te aplikacije" (Windows), dovolite dostop. Potrebno za komunikacijo med algoritmom in vizualizacijo.
 
 Zagon vizualizacije:
+
 npm install - izvedi le prvič
+
 npm start - začetek simulacije
