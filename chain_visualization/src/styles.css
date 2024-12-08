@@ -1,0 +1,440 @@
+/*RED USER STYLES*/
+.red-input {
+    width: 60px;
+    height: 30px;
+    background-color: #FF6666;
+    font-weight: bold;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: black;
+}
+.red-input:disabled {
+    background-color: #FF6666;
+    color: black;
+}
+.red-input::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+.button-send-red {
+    display: inline-block;
+    padding: 6px;
+    width: 30px; 
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF3333;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+.button-send-red:hover {
+    background-color: #CC0000;
+}
+.button-send-red:active {
+    background-color: #CC0000;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+.button-send-red:disabled {
+    background-color: #CC0000;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/*BLUE USER STYLES*/
+.blue-input {
+    width: 60px;
+    height: 30px;
+    background-color: #6666FF;
+    font-weight: bold;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: white;
+}
+.blue-input:disabled {
+    background-color: #6666FF;
+    color: white;
+}
+.blue-input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.button-send-blue {
+    display: inline-block;
+    padding: 6px;
+    width: 30px; 
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3333FF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+.button-send-blue:hover {
+    background-color: #0000CC;
+}
+.button-send-blue:active {
+    background-color: #0000CC;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+.button-send-blue:disabled {
+    background-color: #0000CC;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/*SERVER STYLES*/
+.read-input {
+    width: 60px;
+    height: 30px;
+    background-color: #FFB266;
+    font-weight: bold;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: black;
+}
+.read-input:disabled {
+    background-color: #FFB266;
+    color: black;
+}
+.read-input::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+.button-read {
+    display: inline-block;
+    padding: 6px;
+    width: 30px; 
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF9933;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+.button-read:hover {
+    background-color: #CC6600;
+}
+.button-read:active {
+    background-color: #CC6600;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+.button-read:disabled {
+    background-color: #CC6600;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.button-shutdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    width: 30px; 
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF3333;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+.button-shutdown:hover {
+    background-color: #CC0000;
+}
+.button-shutdown:active {
+    background-color: #CC0000;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+.button-shutdown:disabled {
+    background-color: #CC0000;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.storage-terminal {
+    background-color: #C0C0C0;
+    color: #000;
+    font-family: monospace;
+    overflow-y: auto;
+    white-space: pre;
+    padding: 5px;
+    width: 140px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.storage-line {
+    padding: 2px 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*CONTROL BUTTONS STYLES*/
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    padding: 20px 50px 20px 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.button-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-left: 10px;
+}
+
+.button-conf {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #808080;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button-conf:hover {
+    background-color: #606060
+}
+.button-conf:active {
+    background-color: #606060;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-conf:disabled {
+    background-color: #606060;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.button-clock {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button-clock:hover {
+    background-color: #3e8e41
+}
+.button-clock:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-clock:disabled {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.input-checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input-checkbox-container input.input-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.input-checkbox-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}  
+.input-checkbox-container:hover input ~ .input-checkbox-checkmark {
+    background-color: #ccc;
+}
+.input-checkbox-container input:checked ~ .input-checkbox-checkmark {
+    background-color: #2196F3;
+} 
+.input-checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}  
+.input-checkbox-container input:checked ~ .input-checkbox-checkmark:after {
+    display: block;
+} 
+.input-checkbox-container .input-checkbox-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.button-reset {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0066CC;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button-reset:hover {
+    background-color: #004C99
+}
+.button-reset:active {
+    background-color: #004C99;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-reset:disabled {
+    background-color: #004C99;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.button-add {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #00CC00;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button-add:hover {
+    background-color: #009900
+}
+.button-add:active {
+    background-color: #009900;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-add:disabled {
+    background-color: #009900;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/*TERMINAL STYLES*/
+.terminal-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto 50px auto;
+}
+.left-terminal, .right-terminal {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+} 
+.left-terminal {
+    background-color: #f0f0f0;
+    color: #000;
+    font-family: monospace;
+    overflow-y: auto;
+    white-space: pre;
+    padding: 10px;
+} 
+.right-terminal {
+    background-color: #000;
+    color: #00ff00;
+    font-family: monospace;
+    overflow-y: auto;
+    white-space: pre;
+    padding: 10px;
+}
+.terminal-line {
+    padding: 2px 0;
+    margin: 0;
+    text-align: left;
+}

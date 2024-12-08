@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/chain_visualization/node_modules
+/chain_visualization/.pnp
+chain_visualization/.pnp.js
+
+# testing
+/chain_visualization/coverage
+
+# production
+/chain_visualization/build
+
+# misc
+/chain_visualization/.DS_Store
+/chain_visualization/.env.local
+/chain_visualization/.env.development.local
+/chain_visualization/.env.test.local
+/chain_visualization/.env.production.local
+
+/chain_visualization/npm-debug.log*
+/chain_visualization/yarn-debug.log*
+/chain_visualization/yarn-error.log*
